@@ -1,0 +1,39 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [157] using StatReload
+INFO:     Started server process [159]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:49366 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:49372 - "OPTIONS /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49390 - "OPTIONS /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49374 - "OPTIONS /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49404 - "OPTIONS /api/projects HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49410 - "OPTIONS /api/time-entries?month=2025-11 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49414 - "OPTIONS /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49372 - "OPTIONS /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49390 - "OPTIONS /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49404 - "OPTIONS /api/projects HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49374 - "OPTIONS /api/time-entries?month=2025-11 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49414 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49410 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49372 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49390 - "GET /api/time-entries?month=2025-11 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49410 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49414 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49372 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49390 - "GET /api/time-entries?month=2025-11 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49372 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:49372 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53814 - "GET /api/time-entries?month=2025-11 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53796 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53808 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53812 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53814 - "GET /api/time-entries?month=2025-11 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53812 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53796 - "GET /api/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53808 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53808 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53808 - "GET /api/clients HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53820 - "OPTIONS /api/punch/stop HTTP/1.1" 200 OK
+INFO:     172.20.0.1:53820 - "POST /api/punch/stop HTTP/1.1" 404 Not Found
